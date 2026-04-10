@@ -192,3 +192,34 @@ LocalStorage (Mock Data Storage)
 To build a production-like healthcare dashboard that demonstrates strong frontend development skills, UI/UX understanding, and the ability to design scalable applications.
 
 ---
+
+## 🧠 Frontend Architecture
+
+### 📊 Architecture Diagram
+
+<img width="1536" height="1024" alt="Healthcare app frontend architecture diagram (1)" src="https://github.com/user-attachments/assets/6d9581de-3ed6-4178-9504-b58c12c6f88f" />
+
+
+---
+
+### 🔌 Mock API Endpoints
+
+* POST   /login
+* GET    /user
+* GET    /health-records
+* POST   /health-records
+* GET    /appointments
+* POST   /appointments
+* GET    /doctors
+* GET    /prescriptions
+
+---
+
+### 📌 Explanation
+
+The application follows a frontend-only architecture using Next.js and React. The user interface interacts with the application state managed using React hooks and Context API.
+
+The state is divided into multiple modules such as authentication, health records, appointments, doctors, and prescriptions. All data is stored in LocalStorage to simulate a backend database.
+
+Mock API endpoints are defined to replicate real-world API behavior, making the application scalable for future backend integration.
+
