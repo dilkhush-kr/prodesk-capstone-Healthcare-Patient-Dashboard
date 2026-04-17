@@ -229,3 +229,8 @@ Mock API endpoints are defined to replicate real-world API behavior, making the 
 - Next.js setup
 - Firebase Authentication
 - Login & Register pages
+
+Live Link:- https://prodesk-capstone-healthcare-patient.vercel.app/login
+
+# UI Screenshot
+![](assets/ScreenshotWeek14.png)
