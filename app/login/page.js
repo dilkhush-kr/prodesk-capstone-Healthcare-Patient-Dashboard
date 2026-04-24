@@ -16,8 +16,16 @@ export default function Login() {
       await signInWithEmailAndPassword(auth, email, password);
       router.push("/dashboard");
     } catch (error) {
-      alert(error.message);
+    console.log(error); 
+
+    if (error.code === "auth/user-not-found") {
+      alert("User not found. Please register first.");
+    } else if (error.code === "auth/wrong-password") {
+      alert("Incorrect password.");
+    } else {
+      alert("Login failed. Check your email and password.");
     }
+  }
   };
 
   return (
