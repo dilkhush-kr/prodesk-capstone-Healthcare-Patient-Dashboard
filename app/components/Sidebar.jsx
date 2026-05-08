@@ -23,7 +23,7 @@ export default function Sidebar() {
     <div className="w-64 h-screen fixed top-0 left-0 bg-white border-r p-5 flex flex-col z-40">
       
       {/* LOGO */}
-      <h1 className="text-xl font-bold mb-8">VitalSync</h1>
+      <h1 className="text-xl font-bold text-black mb-8">VitalSync</h1>
 
       {/* MENU */}
       <div className="flex flex-col gap-2">

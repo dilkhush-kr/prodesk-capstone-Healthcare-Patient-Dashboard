@@ -153,8 +153,9 @@ return (
    {/* MAIN */}   
   <div className="flex-1 flex flex-col ml-64">
   <Navbar />
-<div className="p-4 md:p-6 bg-gray-50 min-h-screen overflow-y-auto flex-1"> <h1 className="text-2xl font-bold">Dashboard</h1>
-
+<div className="p-4 md:p-6 bg-gray-50 text-black  min-h-screen overflow-y-auto flex-1"> <h3 className="text-2xl font-bold"></h3>
+{user && <p>Welcome: {user.email}</p>}
+   
  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-6">
 
   {/* BP CARD */}
@@ -250,7 +251,7 @@ return (
 
 </div>
 
-  {user && <p>Welcome: {user.email}</p>}
+  
 
   {/* FORM */}
   

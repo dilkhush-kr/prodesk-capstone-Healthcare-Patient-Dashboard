@@ -54,7 +54,7 @@ export default function Prescriptions() {
       <div className="flex-1 flex flex-col ml-64">
         <Navbar />
 
-        <div className="p-6 bg-gray-50 min-h-screen">
+        <div className="p-6 bg-gray-50 text-black min-h-screen">
 
           {/* HEADER */}
           <h1 className="text-2xl font-bold">Prescriptions</h1>

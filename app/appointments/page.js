@@ -136,7 +136,7 @@ useEffect(() => {
          <div className="flex-1 flex flex-col ml-64">
           <Navbar />
 
-          <div className="p-6 bg-gray-50 min-h-screen">
+          <div className="p-6 bg-gray-50  text-black min-h-screen">
 
             <h1 className="text-2xl font-bold mb-2">Appointments</h1>
             <p className="text-gray-500 mb-6">
@@ -257,7 +257,7 @@ useEffect(() => {
 
         {/* RIGHT PANEL */}
         {selectedDoctor && (
-          <div className="fixed right-0 top-0 w-[400px] h-screen bg-white shadow-lg p-5 z-50 overflow-y-auto">
+          <div className="fixed right-0 top-0 w-[400px] h-screen text-black bg-white shadow-lg p-5 z-50 overflow-y-auto">
 
             <button
               onClick={() => setSelectedDoctor(null)}
